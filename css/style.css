@@ -1,4 +1,33 @@
+/*
+http://paletton.com/#uid=3050u1klSrldRJOiiwvp1m4tDe4ksiu4ioIbn3yftKmJygfxk9tmc36Gi6ts6bkgyfGaI
+*/
+
 @import "./nomalize.css";
 @import "./typo.css";
+@import "./fontello/css/fontello.css";
 
 
+.main-menu{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 200px;
+
+    list-style: none;
+}
+
+.main-menu :nth-child(n+2){
+    margin-left: 20px;
+}
+
+.header-title{
+    text-align: center;
+    line-height: 2.5em;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: solid 1px;
+    border-radius: 10px;
+}
